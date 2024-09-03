@@ -1,9 +1,17 @@
 package com.app.financiera.demo.entities;
 
+import lombok.*;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class PortfolioEntity {
 
     private List<PositionEntity> listPosition;
