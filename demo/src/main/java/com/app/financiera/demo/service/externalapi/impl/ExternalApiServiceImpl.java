@@ -1,6 +1,6 @@
-package com.app.financiera.demo.service.impl;
+package com.app.financiera.demo.service.externalapi.impl;
 
-import com.app.financiera.demo.service.ExternalApiService;
+import com.app.financiera.demo.service.externalapi.ExternalApiService;
 import org.springframework.web.client.RestTemplate;
 
 public class ExternalApiServiceImpl implements ExternalApiService {
